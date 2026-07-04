@@ -1,4 +1,3 @@
-
 # 💣 Boom Game
 
 > A modern bomb guessing game built with **Vanilla JavaScript** and **Tailwind CSS**.
