@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💣 Boom Game</title>
+
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950">
+
+    <section
+        class="min-h-screen w-full flex flex-wrap justify-center items-center py-8 gap-8 px-4">
+
+
+
+        <!-- ================  start box one  ================= -->
+
+
+<div
+    class="box1 w-full lg:w-[80%] rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl p-3 md:p-5 flex flex-wrap *:w-1/3 *:flex *:flex-wrap *:justify-center *:items-center">
+
+    <!-- Previous Score -->
+
+    <div>
+
+        <figure class="mr-1 md:mr-3">
+            <img class="w-6 h-6 md:w-10 md:h-10" src="../img/icons8-best-64.png" alt="">
+        </figure>
+
+        <div class="flex flex-col">
+
+            <h5 class="text-[11px] md:text-lg lg:text-2xl font-bold text-white capitalize">
+                Previous
+            </h5>
+
+            <span class="text-yellow-300 text-base md:text-2xl lg:text-3xl font-bold" id="record">
+                0
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Current Score -->
+
+    <div>
+
+        <figure class="mr-1 md:mr-3">
+            <img class="w-6 h-6 md:w-10 md:h-10" src="../img/icons8-target-48.png" alt="">
+        </figure>
+
+        <div class="flex flex-col">
+
+            <h5 class="text-[11px] md:text-lg lg:text-2xl font-bold text-white capitalize">
+                Current
+            </h5>
+
+            <span class="text-green-400 text-base md:text-2xl lg:text-3xl font-bold" id="target">
+                0
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Game Status -->
+
+    <div>
+
+        <figure class="mr-1 md:mr-3">
+            <img class="w-6 h-6 md:w-10 md:h-10" src="../img/icons8-status.gif" alt="">
+        </figure>
+
+        <div class="flex flex-col">
+
+            <h5 class="text-[11px] md:text-lg lg:text-2xl font-bold text-white capitalize">
+                Status
+            </h5>
+
+            <span class="text-sky-400 text-base md:text-2xl lg:text-3xl font-bold" id="startstatus">
+                Ready
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================  start box tow  ================= -->
+
+        <div
+    class="box2  w-full lg:w-[80%] rounded-[35px] bg-white/10 backdrop-blur-2xl border border-white/20 shadow-2xl p-4 md:p-8">
+
+    <div class="box2 grid grid-cols-5 gap-3 md:gap-5 *:cursor-pointer">
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">1</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">2</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">3</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">4</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">5</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">6</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">7</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">8</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">9</button>
+
+        <button class="h-16 md:h-24 lg:h-28 rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 border border-slate-500 shadow-xl text-white text-xl md:text-3xl font-bold hover:scale-105 hover:shadow-cyan-400/40 hover:border-cyan-300 active:scale-95 duration-300">10</button>
+
+    </div>
+
+        </div>
+
+<!-- ================  end box tow  ================= -->
+
+
+
+<!-- ====================== start box three ========================= -->
+
+        <div
+            class="box3  w-full lg:w-[80%] rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl p-8 flex flex-wrap justify-center items-center gap-6">
+
+            <h4 id="h4"
+                class="w-full text-center text-yellow-300 text-xl md:text-2xl lg:text-4xl font-extrabold tracking-wide">
+                💣 I'm waiting for you to start...
+            </h4>
+
+            <h5 id="h5"
+                class="w-full text-center text-white text-lg md:text-2xl font-semibold">
+                Your Score :
+            </h5>
+
+            <div class="w-full flex justify-center">
+
+                <button id="btn"
+                    class="px-10 py-4 rounded-2xl bg-gradient-to-r from-sky-500 to-indigo-600 text-white font-bold text-lg lg:text-2xl shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-cyan-400/60 active:scale-95">
+                    🔄 Reset Game
+                </button>
+
+            </div>
+
+        </div>
+
+<!-- ====================== end box three ========================= -->
+
+    </section>
+
+
+    <footer class="w-full min-h-screen bg-gradient-to-b from-[#14112e] to-[#090812] flex justify-center items-center py-20">
+
+    <div
+        class="relative w-[95%] md:w-[80%] xl:w-[70%] rounded-[35px] overflow-hidden border border-white/10 bg-white/5 backdrop-blur-2xl shadow-[0_0_80px_rgba(0,0,0,.5)]">
+
+        <!-- glow -->
+        <div class="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-violet-600/30 blur-[120px]"></div>
+        <div class="absolute -bottom-32 -right-32 w-80 h-80 rounded-full bg-cyan-500/30 blur-[120px]"></div>
+
+        <div class="relative z-10 flex flex-wrap xl:flex-nowrap items-center justify-center gap-16 p-12">
+
+            <!-- image -->
+            <div class="flex flex-col items-center">
+
+                <div
+                    class="w-72 h-72 rounded-full p-2 bg-gradient-to-r from-violet-500 via-fuchsia-500 to-cyan-400 animate-pulse">
+
+                    <img src="../img/github_profile_under_1mb.jpg"
+                        class="w-full h-full rounded-full object-cover border-4 border-[#1b183d]">
+
+                </div>
+
+                <h2 class="text-white text-4xl font-black mt-8 tracking-[8px]">
+                    PORIA
+                </h2>
+
+                <span class="text-violet-300 mt-2 text-xl tracking-[4px]">
+                    Front-End Developer
+                </span>
+
+            </div>
+
+
+
+            <!-- content -->
+            <div class="flex-1">
+
+                <h3
+                    class="text-5xl font-black text-white mb-6 uppercase tracking-[8px]">
+                    Let's Connect
+                </h3>
+
+                <p class="text-gray-300 text-xl leading-10 max-w-xl">
+                    Thanks for visiting my Dice Game project.
+                    Feel free to contact me through any of the platforms below.
+                </p>
+
+
+
+                <div class="grid md:grid-cols-2 gap-6 mt-12">
+
+                    <!-- Telegram -->
+                    <a href="https://t.me/pori_07"
+                        target="_blank"
+                        class="group rounded-2xl border border-white/10 bg-white/5 p-6 hover:bg-[#229ED9] duration-300">
+
+                        <h4 class="text-white text-2xl font-bold">
+                            Telegram
+                        </h4>
+
+                        <p class="text-gray-300 mt-2">
+                            @pori_07
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/poria.frontend"
+                        target="_blank"
+                        class="group rounded-2xl border border-white/10 bg-white/5 p-6 hover:bg-pink-600 duration-300">
+
+                        <h4 class="text-white text-2xl font-bold">
+                            Instagram
+                        </h4>
+
+                        <p class="text-gray-300 mt-2">
+                            @poria.frontend
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- Github -->
+                    <a href="https://github.com/poria-dev"
+                        target="_blank"
+                        class="group rounded-2xl border border-white/10 bg-white/5 p-6 hover:bg-gray-900 duration-300">
+
+                        <h4 class="text-white text-2xl font-bold">
+                            Github
+                        </h4>
+
+                        <p class="text-gray-300 mt-2">
+                            github.com/poria-dev
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- Linkedin -->
+                    <a href="https://linkedin.com/in/pooria-rezaee"
+                        target="_blank"
+                        class="group rounded-2xl border border-white/10 bg-white/5 p-6 hover:bg-blue-700 duration-300">
+
+                        <h4 class="text-white text-2xl font-bold">
+                            LinkedIn
+                        </h4>
+
+                        <p class="text-gray-300 mt-2">
+                            Pooria Rezaee
+                        </p>
+
+                    </a>
+
+                </div>
+                <div
+                    class="mt-14 border-t border-white/10 pt-8 text-center text-gray-400">
+
+                    © 2026 Poria Dev • Designed & Developed with HTML, Tailwind CSS & JavaScript
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+</body>
+
+<script src="boomb.js"></script>
+
+</html>
