@@ -1,1 +1,1 @@
-# boo_game
+https://poria-dev.github.io/boo_game/
