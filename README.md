@@ -1,53 +1,56 @@
-💣 Boom Game
+# 💣 Boom Game
 
-«A modern browser-based bomb guessing game built with Vanilla JavaScript & Tailwind CSS.»
+> A modern bomb guessing game built with **Vanilla JavaScript** and **Tailwind CSS**.
 
-<p align="center">"HTML5" (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-"TailwindCSS" (https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
-"JavaScript" (https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-"Responsive" (https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+<p align="center">
 
-</p>---
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
 
-🌐 Live Demo
-
-🎮 Play Now
-
-https://poria-dev.github.io/boo_game/src/
+</p>
 
 ---
 
-🎮 About
+## 🌐 Live Demo
 
-Boom Game is a fun mini-game where one hidden bomb is randomly placed behind one of ten buttons.
+🎮 **Play the Game**
 
-Your goal is simple:
+👉 https://poria-dev.github.io/boo_game/src/
 
-- ✅ Pick the safe buttons.
+---
+
+## 📖 About
+
+Boom Game is a fun browser game where one hidden bomb is randomly placed behind one of ten buttons.
+
+Your mission is simple:
+
+- ✅ Choose the safe buttons.
 - 💣 Avoid the hidden bomb.
-- 🏆 Get the highest score possible.
+- 🏆 Beat your highest score.
 
 One wrong click...
 
-BOOM! Game Over.
+**💥 BOOM! Game Over**
 
 ---
 
-✨ Features
+## ✨ Features
 
-- 💣 Random bomb generation
-- 🎯 Live score counter
-- 🏆 High score system
-- 🔊 Sound effects
+- 💣 Random Bomb Position
+- 🎯 Live Score Counter
+- 🏆 High Score
+- 🔊 Sound Effects
+- 📱 Fully Responsive
+- ⚡ Smooth Gameplay
 - 🎨 Modern UI
-- 📱 Responsive Design
-- ⚡ Smooth gameplay
-- 🚫 Disable buttons after Game Over
-- 🎮 Easy to play
+- 🚫 Disable Buttons After Game Over
 
 ---
 
-🛠️ Built With
+## 🛠 Technologies
 
 - HTML5
 - Tailwind CSS
@@ -55,107 +58,101 @@ BOOM! Game Over.
 
 ---
 
-🚀 Installation
+## 🚀 Installation
 
 Clone the repository
 
+```bash
 git clone https://github.com/poria-dev/boo_game.git
-
-Go to project
-
-cd boo_game
+```
 
 Open the project
 
-index.html
+```bash
+cd boo_game
+```
 
-or simply open index.html in your browser.
+Run the game by opening:
+
+```text
+src/index.html
+```
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
-boo_game
+```text
+boo_game/
 │
 ├── audio/
 ├── img/
 ├── src/
 │   └── index.html
-│
 ├── boomb.js
 ├── output.css
 └── README.md
+```
 
 ---
 
-🎯 Gameplay
+## 🎮 Gameplay
 
 1. Click any button.
-2. If it's safe, your score increases.
-3. If you hit the bomb, the game ends.
+2. Safe button → Score +1 ✅
+3. Bomb → Game Over 💥
 4. Try to beat your previous score.
 
 ---
 
-📸 Preview
+## 📸 Preview
 
-Add your screenshot here
+> Add a screenshot of your game here.
 
+Example:
+
+```
 preview.png
+```
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-- 💾 LocalStorage High Score
-- ⏱️ Timer Mode
+- 💾 Save High Score with LocalStorage
+- ⏱ Timer Mode
 - 💣 Multiple Bombs
 - 🎵 Background Music
-- 🎨 More Themes
+- 🌙 Dark Mode
 - 🏅 Leaderboard
-- 🔥 Difficulty Levels
-- 🌙 Dark / Light Mode
+- 🎯 Difficulty Levels
 
 ---
 
-💡 Technologies
+## 👨‍💻 Developer
 
-- HTML
-- CSS
-- Tailwind CSS
-- JavaScript
-- Responsive Design
-- DOM Manipulation
+**Poria**
 
----
-
-👨‍💻 Developer
-
-Poria
-
-GitHub
-
+GitHub:
 https://github.com/poria-dev
 
 ---
 
-⭐ Show your support
+## ⭐ Support
 
-If you like this project,
-
-please leave a ⭐ on the repository.
-
-It really helps!
+If you like this project, please leave a ⭐ on this repository.
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-<p align="center">Thanks for visiting ❤️
+<p align="center">
+Made with ❤️ by <b>Poria</b>
+</p>
 
 Made with ☕ by Poria
 
